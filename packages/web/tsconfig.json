@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        // fdsalfdj
+        "baseUrl": "./",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "core-store": ["../core/src/stores"],
+            "core-modules": ["../core/src/modules"],
+            "core-models": ["../core/src/models"],
+            "~icon": ["../web/src/based/common/icon"],
+            "~common": ["../web/src/based/components/common/"]
+        }
+    },
+    "include": ["src"]
+}
